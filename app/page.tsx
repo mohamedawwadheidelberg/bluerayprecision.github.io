@@ -24,31 +24,23 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[#0F1E3A]/70"></div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 text-balance">
-            Next-Generation Standardization for Cell Therapy Flow Cytometry
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight text-balance">
+            Highly Validated CAR-T Cell Detection Reagents for Flow Cytometry
           </h1>
-          <p className="text-xl md:text-2xl text-slate-200 mb-4 text-pretty">
-            Precision detection reagents and reference materials enabling consistent CAR T monitoring across
-            instruments, labs, and protocols.
+          <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-8 max-w-3xl mx-auto leading-relaxed text-pretty">
+            Designed for accurate and reproducible CAR-T cell detection in standard flow cytometry workflows — with the added capability to quantify receptor density and Accessible CAR Molecules (ACM).
           </p>
-          <p className="text-lg text-slate-300 mb-8">Developed in Heidelberg, Germany</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
-              <Button size="lg" className="text-base px-8">
-                Request a Quote
-              </Button>
-            </Link>
-            <Link href="/products">
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-base px-8 bg-white/10 text-white border-white/30 hover:bg-white/20"
-              >
-                Explore Products
-              </Button>
-            </Link>
-          </div>
+          <p className="text-sm text-slate-400 mb-8">Developed in Heidelberg, Germany</p>
+          <Link href="/technology">
+            <Button
+              size="lg"
+              variant="outline"
+              className="text-base px-8 bg-white/10 text-white border-white/30 hover:bg-white/20"
+            >
+              Explore the Technology
+            </Button>
+          </Link>
         </div>
       </section>
 
